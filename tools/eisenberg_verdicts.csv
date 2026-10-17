@@ -1,0 +1,9 @@
+label,converged,verdict
+eisenberg_h6d_r1,yes,"transient in burn, then slow drift (v_lMd)"
+eisenberg_h6d_r2,yes,"fine after the burn transient"
+eisenberg_h6d_r3,no,"fine at group level after the burn transient; alpha Rhat 1.14 with no subject in a separate mode"
+eisenberg_h6d_r4,no,"slow drift (v_lMd; chain 2 excursion around iterations 850-1100)"
+eisenberg_h6d_r5,yes,"slow drift (v) after the burn transient"
+eisenberg_legacy_r1,yes,"fine by the chains (Rhat <= 1.04), but all chains wrong together: a Stan reference puts subject parameters up to 46 posterior sd away"
+eisenberg_legacy_r2,yes,"fine by the chains (Rhat <= 1.04), but all chains wrong together (Stan reference, |z| up to 46)"
+eisenberg_legacy_r3,yes,"fine by the chains (Rhat <= 1.04), but all chains wrong together (Stan reference, |z| up to 46)"
