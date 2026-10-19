@@ -1,0 +1,26 @@
+"label","dataset","model","type","n_subjects","n_pars","chains","sample_iters","max_rhat_alpha","q99_rhat_alpha","max_rhat_mu","max_rhat_Sigma","worst_parameter","minutes","status","build","worst_chain_z","chain_z","max_subject_spread","n_stuck_subjects","stuck_subjects","file_MB","group_draws","subj_ll_draws","alpha_draws","extract_secs"
+"ANT_LBA_BciVci_jm","ANT","RACE","standard",518,14,6,4000,1.327,1.327,1.289,1.2,"",114.34,"ok","C++ sampler d0b6cf0b (joint_move)",0.2,"-0.1 0.1 0.2 -0.1 0.1 -0.1",1.7,0,"",14.8,1500,346,44,153
+"ANT_RDM_BcSc_jm","ANT","RACE","standard",518,11,6,2411,1.186,1.186,1.126,1.14,"sigma2:",57.99,"ok","C++ sampler d0b6cf0b (joint_move)",0.2,"0 -0.1 0.2 0 -0.1 0",1.7,0,"",14.3,1500,498,90,103
+"ANT_RDM_BcSi_jm","ANT","RACE","standard",518,11,6,891,1.123,1.123,1.082,1.059,"",37.21,"ok","C++ sampler d0b6cf0b (joint_move)",0.3,"0.1 0 -0.2 0 0.1 -0.3",1.8,0,"",14.1,891,610,111,81
+"ANT_RDM_BcVc_jm","ANT","RACE","standard",518,11,6,3700,1.786,1.786,1.29,1.169,"",70.17,"ok","C++ sampler d0b6cf0b (joint_move)",0.1,"0 0.1 -0.1 0.1 0 0",1.3,0,"",14.3,1500,493,89,122
+"ANT_RDM_BcVi_jm","ANT","RACE","standard",518,11,6,2771,1.036,1.036,1.191,1.143,"",48.61,"ok","C++ sampler d0b6cf0b (joint_move)",0.3,"0 0 -0.3 0 0.2 0",0.9,0,"",14.5,1500,491,89,105
+"ANT_RDM_Bci_jm","ANT","RACE","standard",518,11,6,3933,1.059,1.059,1.127,1.067,"",63.92,"ok","C++ sampler d0b6cf0b (joint_move)",0.1,"0.1 0 0 -0.1 0 0.1",1.1,0,"",14.2,1500,486,88,127
+"ANT_RDM_BiSc_jm","ANT","RACE","standard",518,11,6,3300,1.396,1.396,1.08,1.12,"sigma2:",60.84,"ok","C++ sampler d0b6cf0b (joint_move)",0.3,"-0.1 -0.1 0.1 0.1 -0.1 0.3",1.7,0,"",14.3,1500,489,88,114
+"ANT_RDM_BiSi_jm","ANT","RACE","standard",518,11,6,3055,1.129,1.129,1.471,1.269,"",56.19,"ok","C++ sampler d0b6cf0b (joint_move)",0.1,"0 0 -0.1 0 0 0.1",0.8,0,"",14.3,1500,487,88,113
+"ANT_RDM_BiVc_jm","ANT","RACE","standard",518,11,6,3733,1.163,1.163,1.387,1.341,"",72.81,"ok","C++ sampler d0b6cf0b (joint_move)",0.1,"-0.1 0 0 0 -0.1 0.1",0.9,0,"",14.4,1500,485,88,130
+"ANT_RDM_BiVi_jm","ANT","RACE","standard",518,11,6,3289,1.077,1.077,1.317,1.162,"",60.44,"ok","C++ sampler d0b6cf0b (joint_move)",0,"0 0 0 0 0 0",1.2,0,"",14.5,1500,478,87,118
+"ANT_RDM_Sci_jm","ANT","RACE","standard",518,11,6,3578,4.482,4.482,1.458,1.75,"sigma2:",69.82,"ok","C++ sampler d0b6cf0b (joint_move)",0.3,"0.1 -0.3 0.1 -0.1 -0.2 0.1",13.8,0,"",14.4,1500,495,90,131
+"ANT_RDM_VcSc_jm","ANT","RACE","standard",518,11,6,2478,1.11,1.11,1.31,1.194,"",55.19,"ok","C++ sampler d0b6cf0b (joint_move)",0.2,"0.1 0 0 -0.1 -0.2 0",1,0,"",14.3,1500,496,90,108
+"ANT_RDM_VcSi_jm","ANT","RACE","standard",518,11,6,2175,4.2,4.2,1.833,1.885,"sigma2:",62.46,"ok","C++ sampler d0b6cf0b (joint_move)",3.6,"3.6 -0.1 0.1 0.1 -0.1 -0.1",50.3,4,"s254 s543 s454 s304",14.3,1500,497,90,107
+"ANT_RDM_Vci_jm","ANT","RACE","standard",518,11,6,2165,1.478,1.478,1.749,1.313,"",68.28,"ok","C++ sampler d0b6cf0b (joint_move)",0.2,"-0.1 0 -0.1 0 0.1 0.2",1.9,0,"",14.4,1500,491,89,102
+"ANT_RDM_ViSc_jm","ANT","RACE","standard",518,11,6,1455,1.066,1.066,1.095,1.085,"",24.62,"ok","C++ sampler d0b6cf0b (joint_move)",0.1,"0 0.1 0 0.1 0 -0.1",1.4,0,"",14.3,1455,504,91,85
+"ANT_RDM_ViSi_jm","ANT","RACE","standard",518,11,6,1856,1.124,1.124,1.289,1.195,"",51.07,"ok","C++ sampler d0b6cf0b (joint_move)",0.1,"0 -0.1 0 0 0 -0.1",1.1,0,"",14.4,1500,495,90,98
+"Simon_DDM_Bi_jm","Simon","DDM","standard",518,9,6,1000,1.113,1.113,1.036,1.043,"sigma2:",137.54,"ok","C++ sampler d0b6cf0b (joint_move)",0.2,"0 -0.1 0 0.1 0 -0.2",1.2,0,"",13.7,1000,617,137,81
+"Simon_DDM_BiVcSVc_jm","Simon","DDM","standard",518,11,6,1400,1.325,1.325,1.13,1.122,"",278.21,"ok","C++ sampler d0b6cf0b (joint_move)",0.1,"0 -0.1 0 -0.1 0 0.1",1.1,0,"",14.2,1400,502,91,83
+"Simon_LBA_BciSci_jm","Simon","RACE","standard",518,11,3,2945,2.102,2.102,2.795,1.205,"",27.6,"ok","C++ sampler d0b6cf0b (joint_move)",0.2,"0 0.2 0",1.5,0,"",13.9,1500,1267,230,96
+"Simon_LNR_MciSci_jm","Simon","RACE","standard",518,10,3,1951,1.353,1.353,1.498,1.361,"",24.82,"ok","C++ sampler d0b6cf0b (joint_move)",0.2,"0.2 0 0",1.7,0,"",13.8,1500,1313,262,86
+"Simon_WDM_BiVcSc_jm","Simon","DDM","standard",518,8,3,1000,1.19,1.19,1.025,1.023,"",12.12,"ok","C++ sampler d0b6cf0b (joint_move)",0.1,"0 0 -0.1",0.9,0,"",13.2,1500,1302,325,76
+"Stroop_DDM_BcSc_jm","Stroop","DDM","standard",520,9,3,1000,1.143,1.143,1.081,1.072,"",37.44,"ok","C++ sampler d0b6cf0b (joint_move)",0.4,"0 0.1 -0.4",2.4,0,"",13.5,1000,1000,361,80
+"Simon_LNR_MiSi_jm","Simon","RACE","standard",518,8,3,1000,1.033,1.033,1.04,1.033,"",4.42,"ok","C++ sampler d0b6cf0b (joint_move)",0,"0 0 0",0.9,0,"",13.4,1000,1000,416,82
+"ANT_LNR_MiSi_jm","ANT","RACE","standard",518,11,6,1000,1.168,1.168,1.046,1.056,"sigma2:",17.83,"ok","C++ sampler d0b6cf0b (joint_move)",0.2,"0.1 0.2 -0.1 0.1 -0.2 -0.1",1.5,0,"",13.9,1000,581,105,80
+"Stroop_RDM_ViSi_jm","Stroop","RACE","standard",520,9,6,1000,1.122,1.122,1.046,1.044,"",23.56,"ok","C++ sampler d0b6cf0b (joint_move)",0.2,"-0.1 0.2 0 0 0 -0.2",1,0,"",13.4,1000,613,136,71

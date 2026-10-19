@@ -12,6 +12,7 @@ parameter, minutes, the sampler build, and a verdict read from the chain plots.
 | folder | what | build |
 |---|---|---|
 | `conflicteams/` | the 22 ConflictEAMs cases (ANT, Simon and Stroop conflict tasks) that never met the stop rule under the R sampler, fitted fresh on the C++ sampler, plus 3 easy models that converged (`Simon_LNR_MiSi`, `ANT_LNR_MiSi`, `Stroop_RDM_ViSi`) as controls. 6 of the 22 met the stop rule on this build and are controls too. | C++ sampler, EMC2 `d0b6cf0b` (`joint_move`) |
+| `jm1/` | the same 22 ConflictEAMs cases on the next build, which adds a joint location move; each case was run with three seeds (`_c1`-`_c3`). 31 of the 60 runs are here: all three seeds of `ANT_LBA_BciVci`, `ANT_RDM_BcSi`, `ANT_RDM_Sci`, `ANT_RDM_VcSc`, `Simon_LBA_BciSci` and `Simon_WDM_BiVcSc`, the three DDMs (one seed each), and one seed (the one with the median group-mean Rhat, except `ANT_RDM_BiVi_c1`, the seed in which subject s543 sits in two modes) of `BcVc`, `BcVi`, `Bci`, `BiSi`, `BiVc`, `BiVi`, `VcSi`, `Vci`, `ViSi` and `Simon_LNR_MciSci`; `BcSc`, `BiSc` and `ViSc` are left out (they behave the same on both builds). 11 of the 31 met the stop rule (`jm1/stop_rule.csv`: outcome, checks, minutes and the final Rhats of each run). Three seeds show what one run cannot: a few ANT subjects (s543, s243, s304 and others) have two posterior modes 20-70 log-likelihood units apart, and which mode a run settles in is chance, under both builds. | C++ sampler, EMC2 `3c1bcaf1` (`joint_move_pr1`) |
 | `eisenberg/` | the Eisenberg Simon data (518 subjects, RDM): five runs of the rewritten R sampler (`h6d_r1`-`r5`) and three of the legacy R sampler (`legacy_r1`-`r3`). The legacy runs look converged (Rhat at most 1.04, chains agree) but are wrong: a Stan reference puts subject parameters up to 46 posterior sd away. A diagnostic that only compares chains cannot see this. | R sampler (dev-sampler stage H6d), legacy R sampler |
 | `plots/` | per file a four-panel chain plot (`plots/<folder>/<label>.png`) and one page per folder (`grid_*.png`) | |
 | `tools/` | `extract.R` (writes the files), `diag_plots.R`, `grid.R`, `make_index.R` (builds `index.csv`) | |
@@ -46,7 +47,7 @@ refer to the same iteration numbering, so the components can be aligned. Paramet
 (transformed) scale.
 
 **The C++-build fits keep only their sample stage**: the saved objects hold no burn or adapt iterations, so
-`stage` is `"sample"` throughout in `conflicteams/`. The Eisenberg fits keep burn, adapt and sample.
+`stage` is `"sample"` throughout in `conflicteams/` and `jm1/`. The Eisenberg fits keep burn, adapt and sample.
 
 ## Verdicts
 

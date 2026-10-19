@@ -1,0 +1,9 @@
+"label","dataset","model","type","n_subjects","n_pars","chains","sample_iters","max_rhat_alpha","q99_rhat_alpha","max_rhat_mu","max_rhat_Sigma","worst_parameter","minutes","status","build","worst_chain_z","chain_z","max_subject_spread","n_stuck_subjects","stuck_subjects","file_MB","group_draws","subj_ll_draws","alpha_draws","extract_secs"
+"eisenberg_h6d_r1","Eisenberg Simon","RACE","standard",518,8,3,1100,1.059,1.059,1.07,1.127,"sigma2:",NA,NA,"R sampler dev-sampler stage H6d",0.1,"0 -0.1 0",0.9,0,"",13.7,1500,1397,349,67
+"eisenberg_h6d_r2","Eisenberg Simon","RACE","standard",518,8,3,1000,1.044,1.044,1.089,1.089,"",NA,NA,"R sampler dev-sampler stage H6d",0,"-0 0 0",1,0,"",13.6,1500,1379,345,69
+"eisenberg_h6d_r3","Eisenberg Simon","RACE","standard",518,8,3,1345,1.142,1.142,1.039,1.076,"sigma2:",NA,NA,"R sampler dev-sampler stage H6d",0.3,"0.1 -0.3 0",0.8,0,"",13.4,1500,1358,339,72
+"eisenberg_h6d_r4","Eisenberg Simon","RACE","standard",518,8,3,1061,1.144,1.144,1.213,1.17,"",NA,NA,"R sampler dev-sampler stage H6d",0.2,"0 0.2 -0.2",1,0,"",13.5,1500,1395,349,70
+"eisenberg_h6d_r5","Eisenberg Simon","RACE","standard",518,8,3,1029,1.086,1.086,1.075,1.062,"",NA,NA,"R sampler dev-sampler stage H6d",0.3,"-0.3 0.1 0",0.9,0,"",13.7,1500,1400,350,67
+"eisenberg_legacy_r1","Eisenberg Simon","RACE","standard",518,8,3,1000,1.007,1.007,1.024,1.02,"",NA,NA,"R sampler legacy (EMC2 before the dev-sampler rewrite)",0.2,"0 0 -0.2",0.5,0,"",13.5,1167,1167,366,68
+"eisenberg_legacy_r2","Eisenberg Simon","RACE","standard",518,8,3,1000,1.008,1.008,1.04,1.042,"sigma2:",NA,NA,"R sampler legacy (EMC2 before the dev-sampler rewrite)",0.1,"0 -0.1 0",0.4,0,"",15,1167,1167,433,52
+"eisenberg_legacy_r3","Eisenberg Simon","RACE","standard",518,8,3,1000,1.006,1.006,1.017,1.028,"sigma2:",NA,NA,"R sampler legacy (EMC2 before the dev-sampler rewrite)",0.1,"0 0 -0.1",0.8,0,"",13.5,1211,1211,362,68
